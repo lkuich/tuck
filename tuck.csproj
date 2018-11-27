@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Sheets.v4" Version="1.36.0.1378" />
+    <PackageReference Include="Google.Protobuf" Version="3.6.1" />
+    <PackageReference Include="Grpc" Version="1.15.0" />
+    <PackageReference Include="Grpc.Core" Version="1.15.0" />
+    <PackageReference Include="Grpc.Tools" Version="1.15.0" />
+    <PackageReference Include="Magick.NET-Q8-x64" Version="7.8.0" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="2.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="TensorFlowSharp" Version="1.7.0" />
+    <Reference Include="Dfs">
+      <HintPath>dfs/bin/Release/netcoreapp2.1/dfs.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
